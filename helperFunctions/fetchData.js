@@ -46,7 +46,7 @@ function fetchData(data) {
 			reject({ "code": 4, "msg": "Something Went Wrong!!!" });
 		}
 		finally {
-			client.close();
+			await client.close();
 		}
 	})
 };

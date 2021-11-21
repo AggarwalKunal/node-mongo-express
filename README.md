@@ -1,4 +1,4 @@
-# node-mongo-express
+# Getir
 
 API with a single endpoint that fetches the data from the MongoDB collection and return the results in the requested format
 
@@ -13,7 +13,7 @@ API with a single endpoint that fetches the data from the MongoDB collection and
 ### Install and run
 
 * `npm i` or `npm install` - install dependencies
-* set environment variables `PORT`,`DB_URI`,`DB_NAME` and `COLLECTION_NAME` in `.env` file
+* set environment variables `PORT`,`DB_URI`,`DB_NAME`,`COLLECTION_NAME` and `Server_URL`(provided API URL) in `.env` file
 * `npm start` - run the server
 
 To run the tests:

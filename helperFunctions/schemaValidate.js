@@ -16,7 +16,7 @@ function validate_all(data) {
 			})
 			.catch(function (err) {
 				// console.log('validate-err: ', JSON.stringify(err, null, 6));
-				reject({ "code": 1, "message": err.errors[0].message });
+				reject({ "code": 1, "msg": err.errors[0].message });
 			})
 	})
 }
